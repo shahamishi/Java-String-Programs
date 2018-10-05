@@ -7,6 +7,7 @@ import java.util.List;
 /**
  * Created by ashah on 8/28/18.
  */
+//From the given string, seperate the string by a given sepertor. the seperator can occur in sequence too and in that scenario, remove the blank string.
 public class seperateOutStrings {
     public static String[] solution(String s, String separator) {
         List<String> stringsList = new LinkedList<String>(Arrays.asList(s.split(separator)));
